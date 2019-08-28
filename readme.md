@@ -72,6 +72,6 @@ git commit --all -m "注释说明"
 # 版本回退
 
 ~~~
-git test --hard head~0
+git resest --hard head~0
 ~~~
 
