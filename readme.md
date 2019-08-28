@@ -16,9 +16,13 @@
         * `/.idea` 会忽略.idea 文件
         * `/js` 会忽略js目录中的所有文件
         * `/js/*.js` 会忽略js目录下所有js文件
-      
+    
 
 ##查看日志
 查看历史提交的日志
-~~~ git log 查看日志详细信息
-    git log --oneline 更精简的日志信息
+~~~ 
+   git log 查看日志详细信息
+   git log --oneline 更精简的日志信息
+
+~~~
+
