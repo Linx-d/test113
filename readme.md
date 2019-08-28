@@ -71,7 +71,17 @@ git commit --all -m "注释说明"
 
 # 版本回退
 
+## 回退到指定的版本
+
 ~~~
-git resest --hard head~0
+git reset --hard head~0
+//表示回退到上一次代码提交的时候
+~~~
+
+
+
+~~~
+git reset --hard head~1
+//表示回退到上上次代码提交的时候
 ~~~
 
