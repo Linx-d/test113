@@ -125,11 +125,39 @@ git checkout dev
 	哪个分支前面有*号就代表当前处于哪个分支。
 ~~~
 
-合并分支
+## 合并分支
 
 ~~~
 git merge dev
 //合并分支内容，把当前的分支和指定的分支，进行合并
+
+//合并时如果有冲突，需要手动去处理，处理后还需要再提交一次。
+~~~
+
+~~~
+重构：
+git branch dev 创建名称是dev的分支
+git checkout master 选择master主分支
+git merge dev 与指定分支合并（有可能发生冲突，需要手动处理）
+git branch 查看分支列表
+git branch -d dev 删除dev分支
+~~~
+
+## 删除分支 
+
+~~~
+git branch -d dev
+//dev是分支名字
+~~~
+
+
+
+# github
+
+## 上传地址
+
+~~~
+https://github.com/Linx-d/test113.git
 ~~~
 
 
