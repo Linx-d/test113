@@ -129,7 +129,7 @@ git checkout dev
 
 ~~~
 git merge dev
-//合并分支内容，把当前的分支和指定的分支，进行合并
+//合并分支内容，把当前的分支和指定的分支，进行合并（这里的代码指的是在master分支上合并dev分支）
 
 //合并时如果有冲突，需要手动去处理，处理后还需要再提交一次。
 ~~~
@@ -152,7 +152,20 @@ git branch -d dev
 
 
 
-# github
+# GitHub
+
+- https://github.com
+- 不是git，只是一个网站
+- 只不过这个网站提供了允许通过git上传代码的功能
+
+## 提交代码到github（当做服务器来用）
+
+~~~
+	语法:git push [地址] master
+	示例:git push https://github.com/Linx-d/test113.git master
+~~~
+
+- 会把当前分支的内容上传到远程的master
 
 ## 上传地址
 
