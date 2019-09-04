@@ -232,3 +232,12 @@ git@github.com:Linx-d/test118.git
 
 
 再次添加了一个功能
+
+# 在push和pull操作时
+
+## 注意
+
+~~~
+先pull，在push
+~~~
+
