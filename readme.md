@@ -223,5 +223,11 @@ ssh-keygen -t rsa -C "mai@bo.com"
 //使用ssh不用输入账户密码，更方便，安全性更高
 ~~~
 
+- ssh上传地址
+
+~~~
+git@github.com:Linx-d/test118.git
+~~~
+
 
 
