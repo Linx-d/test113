@@ -167,6 +167,28 @@ git branch -d dev
 
 - 会把当前分支的内容上传到远程的master
 
+
+
+## 获取远程分支的数据
+
+### 1.开发过程中常用的pull
+
+~~~
+	语法: git pull [地址] master
+	示例: git pull https://github.com/Linx-d/test113.git master
+	作用: 会得到远程分支的数据.(*注意本地-要初始一个仓储!**多次获取数据会进行响应的整合*)
+~~~
+
+### 2.不常用的克隆clone
+
+~~~
+	语法: git clone [地址]
+	示例: git clone https://github.com/Linx-d/test113.git
+	作用：会得到远程仓储相同的数据 （注意多次获取数据会被覆盖）
+~~~
+
+
+
 ## 上传地址
 
 ~~~
@@ -178,4 +200,28 @@ https://github.com/Linx-d/test113.git
 ~~~
 上传到我的心里
 ~~~
+
+
+
+## SSH提交项目
+
+### 1.生成公钥和私钥
+
+- 在任何一个项目中右键打开git bash here
+- 输入命令:
+
+~~~
+ssh-keygen -t rsa -C "mai@bo.com"
+//在C盘下的用户中的Administrator下的.ssh文件中生成了公钥id_rsa.pub和私钥id_rsa
+~~~
+
+- 提交代码赋值ssh地址
+
+~~~
+语法：git push [地址] master
+示例：git push git@github.com:Linx-d/test118.git master
+//使用ssh不用输入账户密码，更方便，安全性更高
+~~~
+
+
 
