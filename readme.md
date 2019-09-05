@@ -234,3 +234,18 @@ git@github.com:Linx-d/test118.git
 再次添加了一个功能
 
 这是小红添加的功能
+
+# push和pull简化
+
+~~~
+生成公钥和私钥
+ssh-keygen -t rsa -C "mai@bo.com"
+生成的公钥和私钥保存在C盘下的用户中的Administrator中的.ssh文件中
+id_rsa.pub是公钥  id_rsa是私钥
+将公钥在github中设置好
+下次再上传项目的时候就不用输入账户密码
+上传项目语法：	git push git@github.com:Linx-d/test118.git master
+~~~
+
+
+
