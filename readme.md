@@ -249,3 +249,21 @@ id_rsa.pub是公钥  id_rsa是私钥
 
 
 
+## 第一步:绑定起源origin
+
+~~~
+git remote add origin git@github.com:Linx-d/test118.git
+~~~
+
+
+
+## 第二步:与服务器github建立连接
+
+~~~
+在push项目时添加-u
+git push origin -u master
+执行以上代码之后，以后在当前项目下只需要是通过git push就能上传项目，以及git pull就能下载项目。
+
+注意：在上传项目之前需要先将项目保存到本地仓储中，在更新项目之前，需要先将服务器最新版下载下来，以防止冲突（可以在本地解决好冲突在上传服务器）
+~~~
+
